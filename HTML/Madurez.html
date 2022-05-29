@@ -6,11 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Madurez</title>
     <link rel="stylesheet" href="../CSS/MCM.css">
+    <script src="../JS/Madurez.js"></script>
 </head>
 <body>
     <header class="titulo">
         <nav class="nav container">
             <h1>Madurez del Software</h1>
+            <input type="number" id="MT" placeholder="Cantidad de Modulos">
+            <br>
+            <br>
+            <input type="number"  id="FM" placeholder="Modulos Modificados">
+            <br>
+            <br>
+            <input type="number"  id="FA" placeholder="Modulos Añadidos">
+            <br>
+            <br>
+            <input type="number"  id="FE" placeholder="Modulos Eliminados">
+            <br>
+            <br>
+            <button type="submit" onclick="calculadoraIMS()">CALCULAR</button>
+            <br>
+            <br>
+            <input type="number" id="n3" placeholder="IMS">
         </nav>
     </header>
 </body>
