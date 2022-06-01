@@ -5,12 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conversion</title>
-    <link rel="stylesheet" href="../CSS/MCM.css">
+    <link rel="stylesheet" href="../CSS/Conversion.css">
+    <script src="../JS/Conversor.js"></script>
 </head>
 <body>
     <header class="titulo">
         <nav class="nav container">
-            <h1>Conversion HTML </h1>
+            <h1>Convertidor</h1>
+            
+            <textarea id="cadena" rows="5" cols="60" placeholder="Ingrese la cadena que desea convertir"></textarea>
+            <br>
+            <br>
+            <button type="submit" onclick="convertidor()">Convertir</button>
+            <br>
+            <br>
+            <textarea id="html" rows="5" cols="60" placeholder="Resultado"></textarea>
         </nav>
     </header>
 </body>
