@@ -5,12 +5,10 @@ function maximoComunDivisor(){
     var n2=y.value
     let temporal;
     while (n2 != 0) {
-        
         temporal = n2;
         n2 = n1 % n2;
         n1 = temporal;
     }
-   
     return n1;
 };
 
