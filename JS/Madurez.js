@@ -7,7 +7,7 @@ function calculadoraIMS(){
     var FM=b.value;
     var FA=c.value;
     var FE=d.value;
-    n3.value=(MT-(FA+FM+FE))/MT;
+    n3.value=(MT-(parseInt(FA)+parseInt(FM)+parseInt(FE)))/MT;
     a.value=null;
     b.value=null;
     c.value=null;
